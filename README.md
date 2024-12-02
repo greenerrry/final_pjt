@@ -41,7 +41,7 @@
 ## 목표 서비스
     - 영화를 통한 영어학습 사이트 Englix
 
-## 1. 커뮤니티
+1. 커뮤니티
     1. 로그인
         
         ![image.png](./images/image.png)
@@ -141,7 +141,7 @@ e. 회원 탈퇴
 
 ---
 
-![image.png](image%2021.png)
+![image.png](./images/image%2021.png)
 
 ## 4. 영화 추천 알고리즘에 대한 기술적 설명
 
@@ -153,7 +153,7 @@ e. 회원 탈퇴
     
     : vocabularyword 테이블에 저장된 category 를 이용. 내가 선택한 영화의 전체 script 중에서 내가 고른 category의 단어들이 포함된 스크립트를 추출함.
     
-    ![image.png](image%2022.png)
+    ![image.png](./images/image%2022.png)
     
 2. 레벨 (초급, 중급, 고급)
     - 수준별 영화를 어떻게 분류 할 수 있을까 고민 → 영화의 각 스크립트를 Textstat 이라는 라이브러리를 이용해서 수준을 나눌 수 있겠다고 판단
@@ -187,7 +187,7 @@ e. 회원 탈퇴
     - 모든 영화의 모든 subtitles를 대사 하나하나 textstat의 flesch_reading_ease() 함수를 수행해서 difficultylevelmovie 테이블에 각 영화의 beginner, intermediate,  advanced 대사의 개수를 저장함.(이 과정은 apps.py에서 초기 데이터를 저장할 때 수행됨)
     - <MovieDifficultyLevel 테이블>
     
-    ![image.png](image%2023.png)
+    ![image.png](./images/image%2023.png)
     
     - 난이도가 Beginner 면 difficultylevelmovie 테이블 의 Beginner 를 내림차순으로 정렬해서 위에서 부터 추천
     - Intermediate면 difficultylevelmovie 테이블의 Intermediate를 내림차순으로 정렬해서 위에서 부터 추천
@@ -277,31 +277,31 @@ e. 회원 탈퇴
     ⇒ SurveyVue.vue 페이지에서 사용자가 고른 3가지 정보(level, goal, prefer_genre)가 User 테이블에 업데이트됨
     
 
-![image.png](image%2024.png)
+![image.png](./images/image%2024.png)
 
 ⇒ MovieView.vue 페이지에 현재 로그인한 사용자의 정보(업데이트된 level, prefer_genre)를 바탕으로 추천 영화를 보여줌
 
 고른 장르 영화들 중에서, moviedifficultylevelmovie 테이블에서 내가 고른 난이도를 내림차순으로 보여줌(그중에 상위 3개는 1, 2, 3으로 표시됨)
 
-![image.png](image%2025.png)
+![image.png](./images/image%2025.png)
 
-![image.png](image%2026.png)
+![image.png](./images/image%2026.png)
 
 ## 5. 생성형 AI를 활용한 부분
 
 ---
 
-### 스크립트를 분석하기 위해 google의 Gemini 생성형 AI를 활용
+1. 내가 공부하고자 하는 스크립트를 분석하기 위해 google의 Gemini 생성형 AI를 활용함.
 
-![image.png](image%2027.png)
+![image.png](./images/image%2027.png)
 
-![image.png](image%2028.png)
+![image.png](./images/image%2028.png)
 
-### 스크립트를 따라 녹음하면서 영어 말하기 공부를 위해 google의  speech-to-text AI를 활용
+1. 스크립트를 따라 녹음하면서 영어 말하기 공부를 위해 google의  speech-to-text AI를 활용함.
 
-![image.png](image%2029.png)
+![image.png](./images/image%2029.png)
 
-![image.png](image%2030.png)
+![image.png](./images/image%2030.png)
 
 ## 6. 후기
 
