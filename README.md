@@ -290,13 +290,13 @@ e. 회원 탈퇴
 
 ---
 
-1. 내가 공부하고자 하는 스크립트를 분석하기 위해 google의 Gemini 생성형 AI를 활용함.
+스크립트를 분석하기 위해 google의 Gemini 생성형 AI를 활용
 
 ![image.png](./images/image%2027.png)
 
 ![image.png](./images/image%2028.png)
 
-1. 스크립트를 따라 녹음하면서 영어 말하기 공부를 위해 google의  speech-to-text AI를 활용함.
+스크립트를 따라 녹음하면서 영어 말하기 공부를 위해 google의  speech-to-text AI를 활용
 
 ![image.png](./images/image%2029.png)
 
