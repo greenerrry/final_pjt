@@ -185,7 +185,7 @@ class MovieConfig(AppConfig):
 
     def load_movies(self, Movie, Genre, api_key):
         url = "https://api.themoviedb.org/3/discover/movie"
-        movies_to_fetch = 5  # 가져올 총 영화 수 조절 가능
+        movies_to_fetch = 10 # 가져올 총 영화 수 조절 가능
         movies_fetched = 0
         page = 1
 

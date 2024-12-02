@@ -183,8 +183,8 @@ GEMINI_API_KEY = os.getenv(
     "GEMINI_API_KEY", "AIzaSyB_yNORkBoe7P0ufDoHtnd4UcIF8pyJB5U")
 
 
-
-SPEECH_TO_TEXT_API_KEY = os.path.join(BASE_DIR, 'credentials', 'gen-lang-client-0326643632-c0e54b05ff85.json')
+SPEECH_TO_TEXT_API_KEY = os.path.join(
+    BASE_DIR, 'credentials', 'gen-lang-client-0326643632-c0e54b05ff85.json')
 
 INSTALLED_APPS += [
     'drf_spectacular',

@@ -311,4 +311,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/windows,python,django,visualstudiocode
 
 # credentials 폴더는 원래 gitignore에 추가해야함 
-# credentials/
+credentials/
