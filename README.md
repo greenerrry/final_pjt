@@ -1,11 +1,11 @@
 # README
 
-### 1) 개발 기간
+## 1. 개발 기간
 
    : 2024. 11. 15 ~ 2024 . 11. 26 (12일)
 
 
-### 2) 기술 스택
+## 2. 기술 스택
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white)
@@ -16,9 +16,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=Git&logoColor=white)
 
-### 3. 팀원 정보 및 업무 분담 내역
+## 3. 팀원 정보 및 업무 분담 내역
 
-### 김윤지
+## 김윤지
 
 - 로그인, 로그아웃 기능
 - 회원가입, 회원탈퇴 기능
@@ -27,7 +27,7 @@
 - 프로필 조회 기능
 - 검색 서비스 기능
 
-### 류현석
+## 류현석
 
 - 영화 데이터 저장
 - 영화 목록, 상세 목록 조회
@@ -35,12 +35,11 @@
 - AI 활용 문장 분석
 - AI 활용 스피치 분석
 
-# 4. 목표 서비스
+## 4. 서비스 특징
+- 영화를 통한 영어학습 사이트 Englix
 
-
-## 목표 서비스
-    - 영화를 통한 영어학습 사이트 Englix
-
+## 주요 서비스
+    
 1. 커뮤니티
     1. 로그인
         
