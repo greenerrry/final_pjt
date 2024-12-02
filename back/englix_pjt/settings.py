@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-ui%0u#u!)#5#z^zvoy=@q2m5#1#m6q%6^roh!r$)!a@l0pm21t'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -171,9 +171,7 @@ CACHES = {
 }
 
 
-TMDB_API_KEY = os.getenv("TMDB_API_KEY", "79515b13e7173b61c283df598e900f55")
-# OPENSUBTITLES_API_KEY = os.getenv(
-#     "OPENSUBTITLES_API_KEY", "5feL1WVOD1PZCMFwJ5oQsMGwPjHxfMMb") # 류현석
+TMDB_API_KEY = os.getenv("TMDB_API_KEY", "")
 
 OPENSUBTITLES_API_KEY = os.getenv(
     "OPENSUBTITLES_API_KEY", "")
@@ -184,7 +182,7 @@ GEMINI_API_KEY = os.getenv(
 
 
 SPEECH_TO_TEXT_API_KEY = os.path.join(
-    BASE_DIR, 'credentials', 'gen-lang-client-0326643632-c0e54b05ff85.json')
+    BASE_DIR, 'credentials', '')
 
 INSTALLED_APPS += [
     'drf_spectacular',
