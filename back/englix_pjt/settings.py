@@ -171,14 +171,7 @@ CACHES = {
 }
 
 
-TMDB_API_KEY = os.getenv("TMDB_API_KEY", "")
 
-OPENSUBTITLES_API_KEY = os.getenv(
-    "OPENSUBTITLES_API_KEY", "")
-OPENAI_API_KEY = os.getenv(
-    "OPENAI_API_KEY", "")
-GEMINI_API_KEY = os.getenv(
-    "GEMINI_API_KEY", "")
 
 
 SPEECH_TO_TEXT_API_KEY = os.path.join(
